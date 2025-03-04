@@ -1,1 +1,1 @@
-# bella-go-games
+# bellagogames
