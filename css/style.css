@@ -3,6 +3,13 @@ body{
     margin:0;
     padding:0;
 }
+/*
+.errandbg{
+    background-image:url(../img/bgforfit.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position:right bottom;
+}*/
 
 .column{
     float:left;
@@ -13,12 +20,33 @@ body{
     width:20%;
 }
 
+.middle{
+    width:40%
+}
+
 .right{
-    width:80%;
+    width:40%;
+    background-image:url(../img/bgforfit.png);
+    background-repeat:no-repeat;
+    background-position:100%;
+    display:flex;
+    justify-content:center;
+}
+
+.centeritems{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.game{
+    width:60%;
+    display:flex;
+    align-items:center;
+    padding:13.5px;
 }
 
 h1{
-    background-color:#FF1654;
     font-family: "Lexend", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
@@ -26,14 +54,79 @@ h1{
     color:#FFFFFF;
     margin:0;
     font-size: 40px;
-    vertical-align: middle;
     padding:30px;
 }
 
-#me{
+nav{
+    background-color:#FF1654;
+    display:flex;
+    justify-content: space-between;
+}
+
+#more{
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    color:#FFFFFF;
+    margin:0;
+    font-size: 25px;
+    padding:30px;
+    padding-right:70px;
+    text-decoration:none;
+}
+
+#newgame{
     display:flex;
     justify-content:flex-end;
     align-items:center;
     height:75vh;
-    
+}
+
+.me{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:87vh;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    height:25vh;
+  }
+.container > div {
+    background-color: #FF1654;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    margin:10px;
+    border-radius: 20px;
+  }
+
+.new{
+    height:40vh;
+    border-radius: 20px;
+}
+
+#yawn{
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+    height:75vh;
+}
+
+.jeans{
+    height:50vh;
+}
+
+h2{
+        font-family: "Peralta", serif;
+        font-weight: 400;
+        font-style: normal;
+        color:#F6E3FC;
+        font-size: 40px;
+        display:flex;
+        justify-content:center;
 }
