@@ -9,7 +9,7 @@ body{
     background-size: auto;
     background-repeat: no-repeat;
     background-position:right bottom;
-}*/
+} can delete? */
 
 .column{
     float:left;
@@ -129,4 +129,18 @@ h2{
         font-size: 40px;
         display:flex;
         justify-content:center;
+}
+
+.comp-sprite{
+    background-image: url(../img/gobackcombined.png);
+    background-position:0px 0px;
+    margin:auto;
+    margin-top:10%;
+    height:229px;
+    width: 488px;
+}
+
+.comp-sprite:hover{
+    background-image: url(../img/gobackcombined.png);
+    background-position:0px -229px;
 }
