@@ -44,6 +44,7 @@ body{
     display:flex;
     align-items:center;
     padding:13.5px;
+    border-radius: 20px;
 }
 
 h1{
@@ -110,15 +111,32 @@ nav{
     border-radius: 20px;
 }
 
+#pop{
+    height:40vh;
+    border-radius: 20px;
+    background-image: url(../img/dressbellafull.png);
+    background-position:0px 0px;
+    margin:auto;
+    margin-top:10%;
+    height:630px;
+    width: 750px;
+}
+
+#pop:hover{
+    background-image: url(../img/dressbellafull.png);
+    background-position:0px -630px;
+}
+
+#poptwo{
+    height:40vh;
+    border-radius: 20px;
+}
+
 #yawn{
     display:flex;
     justify-content:flex-end;
     align-items:center;
     height:75vh;
-}
-
-.jeans{
-    height:50vh;
 }
 
 h2{
@@ -131,7 +149,7 @@ h2{
         justify-content:center;
 }
 
-.comp-sprite{
+.goback{
     background-image: url(../img/gobackcombined.png);
     background-position:0px 0px;
     margin:auto;
@@ -139,8 +157,40 @@ h2{
     height:229px;
     width: 488px;
 }
-
-.comp-sprite:hover{
+.goback:hover{
     background-image: url(../img/gobackcombined.png);
     background-position:0px -229px;
+}
+
+
+
+
+
+
+
+
+/*ITEMS CSS*/
+
+#bluejeans{
+    height:50vh;
+    padding: 10px;
+}
+
+#bluejeans:hover{
+    background-image: url(../img/bluejeansinvert.png);
+    margin:auto;
+    background-size:100%;
+    background-repeat:no-repeat;
+}
+
+#blackjeans{
+    height:50vh;
+    padding: 10px;
+}
+
+#blackjeans:hover{
+    background-image: url(../img/blajeansinvert.png);
+    margin:auto;
+    background-size:100%;
+    background-repeat:no-repeat;
 }
