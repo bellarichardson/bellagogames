@@ -33,6 +33,10 @@ body{
     justify-content:center;
 }
 
+#right{
+    width:40%;
+}
+
 .centeritems{
     display:flex;
     justify-content:center;
@@ -45,17 +49,6 @@ body{
     align-items:center;
     padding:13.5px;
     border-radius: 20px;
-}
-
-h1{
-    font-family: "Lexend", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
-    color:#FFFFFF;
-    margin:0;
-    font-size: 40px;
-    padding:30px;
 }
 
 nav{
@@ -134,20 +127,70 @@ nav{
 
 #yawn{
     display:flex;
-    justify-content:flex-end;
+    justify-content:center;
     align-items:center;
-    height:75vh;
+    height:85vh;
+}
+
+h1{
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color:#FFFFFF;
+    margin:0;
+    font-size: 40px;
+    padding:30px;
 }
 
 h2{
-        font-family: "Peralta", serif;
-        font-weight: 400;
-        font-style: normal;
-        color:#F6E3FC;
-        font-size: 40px;
-        display:flex;
-        justify-content:center;
+    font-family: "Peralta", serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#F6E3FC;
+    font-size: 70px;
+    display:flex;
+    justify-content:center;
+    margin-bottom:0px;
 }
+
+h3{
+    font-family: "Peralta", serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#F6E3FC;
+    font-size: 45px;
+    display:flex;
+    justify-content:center;
+}
+
+h4{
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color:#9013B9;
+    margin:0;
+    font-size: 25px;
+    padding:30px;
+    display:flex;
+    justify-content:center;
+    margin-bottom:0px;
+}
+
+p{
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style:normal;
+    color:#9013B9;
+    margin:0;
+    font-size: 18px;
+    padding:30px;
+    margin-bottom:0px;
+}
+
+
 
 .goback{
     background-image: url(../img/gobackcombined.png);
@@ -155,11 +198,30 @@ h2{
     margin:auto;
     margin-top:10%;
     height:229px;
-    width: 488px;
+    width: 244px;
 }
 .goback:hover{
     background-image: url(../img/gobackcombined.png);
-    background-position:0px -229px;
+    background-position:0px -114.5px;
+}
+
+.options{
+    width:400px;
+    display:flex;
+    justify-content:center;
+    margin:5px;
+}
+
+.startcenter{
+    display:flex;
+    justify-content:flex-end;
+    align-items: center;
+    margin:0;
+    margin-top:0px;
+}
+
+#err:hover{
+    transform:scale(1.1);
 }
 
 
@@ -190,6 +252,30 @@ h2{
 
 #blackjeans:hover{
     background-image: url(../img/blajeansinvert.png);
+    margin:auto;
+    background-size:100%;
+    background-repeat:no-repeat;
+}
+
+#tank{
+    height:30vh;
+    padding: 10px;
+}
+
+#tank:hover{
+    background-image: url(../img/tankinvert.png);
+    margin:auto;
+    background-size:100%;
+    background-repeat:no-repeat;
+}
+
+#shirt{
+    height:30vh;
+    padding: 10px;
+}
+
+#shirt:hover{
+    background-image: url(../img/shirtinvert.png);
     margin:auto;
     background-size:100%;
     background-repeat:no-repeat;
