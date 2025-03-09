@@ -43,12 +43,22 @@ body{
     align-items:center;
 }
 
+.leftcenter{
+    display:flex;
+    justify-content: center;
+    margin:0;
+}
+
 .game{
     width:60%;
     display:flex;
     align-items:center;
     padding:13.5px;
     border-radius: 20px;
+}
+
+a{
+    text-decoration: none;
 }
 
 nav{
@@ -107,17 +117,11 @@ nav{
 #pop{
     height:40vh;
     border-radius: 20px;
-    background-image: url(../img/dressbellafull.png);
-    background-position:0px 0px;
-    margin:auto;
-    margin-top:10%;
-    height:630px;
-    width: 750px;
+    height:40vh;
 }
 
 #pop:hover{
-    background-image: url(../img/dressbellafull.png);
-    background-position:0px -630px;
+    transform:scale(1.1);
 }
 
 #poptwo{
@@ -190,19 +194,63 @@ p{
     margin-bottom:0px;
 }
 
+#bottom{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
 
+#look{
+    margin-top:0;
+}
 
 .goback{
     background-image: url(../img/gobackcombined.png);
     background-position:0px 0px;
     margin:auto;
-    margin-top:10%;
-    height:229px;
-    width: 244px;
+    margin-top:60%;
+    height:115px;
+    width: 245px;
+    background-size: 30vh;
+
 }
 .goback:hover{
     background-image: url(../img/gobackcombined.png);
-    background-position:0px -114.5px;
+    background-position:0px -115px;
+}
+
+#goback{
+    background-image: url(../img/gobackcombined.png);
+    background-position:0px 0px;
+    margin:auto;
+    margin-top:5%;
+    height:115px;
+    width: 245px;
+    background-size: 30vh;
+}
+#goback:hover{
+    background-image: url(../img/gobackcombined.png);
+    background-position:0px -115px;
+}
+
+.backleft{
+    display:flex;
+    justify-content:flex-start;
+    align-items: flex-end;
+    margin-left: 20px;
+}
+
+#again{
+    background-image: url(../img/playagain.png);
+    background-position:0px 0px;
+    margin:auto;
+    margin-top:10%;
+    height:80px;
+    width: 245px;
+    background-size: 30vh;
+}
+#again:hover{
+    background-image: url(../img/playagain.png);
+    background-position:0px -80px;
 }
 
 .options{
@@ -237,7 +285,6 @@ p{
     height:50vh;
     padding: 10px;
 }
-
 #bluejeans:hover{
     background-image: url(../img/bluejeansinvert.png);
     margin:auto;
@@ -249,7 +296,6 @@ p{
     height:50vh;
     padding: 10px;
 }
-
 #blackjeans:hover{
     background-image: url(../img/blajeansinvert.png);
     margin:auto;
@@ -261,7 +307,6 @@ p{
     height:30vh;
     padding: 10px;
 }
-
 #tank:hover{
     background-image: url(../img/tankinvert.png);
     margin:auto;
@@ -273,9 +318,41 @@ p{
     height:30vh;
     padding: 10px;
 }
-
 #shirt:hover{
     background-image: url(../img/shirtinvert.png);
+    margin:auto;
+    background-size:100%;
+    background-repeat:no-repeat;
+}
+
+#shoes{
+    height:30vh;
+    padding: 10px;
+}
+#shoes:hover{
+    background-image: url(../img/shoesinvert.png);
+    margin:auto;
+    background-size:92%;
+    background-repeat:no-repeat;
+}
+
+#purse{
+    height:30vh;
+    padding: 10px;
+}
+#purse:hover{
+    background-image: url(../img/purseinvert.png);
+    margin:auto;
+    background-size:100%;
+    background-repeat:no-repeat;
+}
+
+#hat{
+    height:20vh;
+    padding: 10px;
+}
+#hat:hover{
+    background-image: url(../img/hatinvert.png);
     margin:auto;
     background-size:100%;
     background-repeat:no-repeat;
