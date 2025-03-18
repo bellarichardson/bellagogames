@@ -56,6 +56,9 @@ body{
     padding:13.5px;
     border-radius: 20px;
 }
+.game:hover{
+    transform: scale(1.1);
+}
 
 a{
     text-decoration: none;
@@ -115,18 +118,14 @@ nav{
 }
 
 #pop{
-    height:40vh;
-    border-radius: 20px;
-    height:40vh;
+    height: 40vh;
+    border-radius: 20px; 
 }
 
-#pop:hover{
-    transform:scale(1.1);
-}
-
-#poptwo{
+#poptwo:hover{
     height:40vh;
     border-radius: 20px;
+    transform:scale(1.07);
 }
 
 #yawn{
@@ -232,6 +231,20 @@ p{
     background-position:0px -115px;
 }
 
+#gobacks{
+    background-image: url(../img/gobackcombined.png);
+    background-position:0px 0px;
+    margin:auto;
+    margin-top:40%;
+    height:115px;
+    width: 245px;
+    background-size: 30vh;
+}
+#gobacks:hover{
+    background-image: url(../img/gobackcombined.png);
+    background-position:0px -115px;
+}
+
 .backleft{
     display:flex;
     justify-content:flex-start;
@@ -243,7 +256,7 @@ p{
     background-image: url(../img/playagain.png);
     background-position:0px 0px;
     margin:auto;
-    margin-top:10%;
+    margin-top:5%;
     height:80px;
     width: 245px;
     background-size: 30vh;
@@ -270,6 +283,22 @@ p{
 
 #err:hover{
     transform:scale(1.1);
+}
+
+.sparkles{
+    position: absolute;
+    top: 100px;
+    right: 50px;
+    height: 150px;
+    transform: rotate(10deg);
+}
+
+.sparkle{
+    position: absolute;
+    top: 600px;
+    right: 370px;
+    height: 150px;
+    transform: rotate(-10deg);
 }
 
 
