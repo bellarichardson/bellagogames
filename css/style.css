@@ -43,17 +43,16 @@ body{
     flex-direction:column;
     align-items:center;
     justify-content:center;
-    margin:20px;
+    margin:1%;
 }
 #left{
-    width:48%;
-    margin-left:40px;
+    width:46%;
 }
 #middle{
-    width:26%;
+    width:24%;
 }
 #rights{
-    width:26%;
+    width:24%;
 }
 
 .centeritems{
@@ -166,21 +165,16 @@ nav{
 
 .new{
     height:30vh;
+    border-radius: 20px;
     background-color:#FF1654;
     padding:10px;
-    border-radius: 20px;
-}
-/*#new{
-    height:30vh;
-    background-color:#FF1654;
-    padding:10px;
-    border-radius: 20px;
     margin-bottom:40px;
-}*/
+}
+
 #pop{
+    border-radius: 20px;
     background-color:#FF1654;
     padding:10px;
-    border-radius: 20px;
 }
 #pop:hover{
     transform:scale(1.03);
