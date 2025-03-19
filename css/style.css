@@ -49,10 +49,10 @@ body{
     width:46%;
 }
 #middle{
-    width:24%;
+    width:22%;
 }
 #rights{
-    width:24%;
+    width:22%;
 }
 
 .centeritems{
@@ -168,7 +168,6 @@ nav{
     border-radius: 20px;
     background-color:#FF1654;
     padding:10px;
-    margin-bottom:40px;
 }
 
 #pop{
