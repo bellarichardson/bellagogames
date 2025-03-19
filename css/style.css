@@ -14,16 +14,13 @@ body{
 .column{
     float:left;
 }
-
 .left{
     background-color: #FF1654;
     width:20%;
 }
-
 .middle{
     width:40%;
 }
-
 .right{
     width:40%;
     background-image:url(../img/bgforfit.png);
@@ -35,6 +32,28 @@ body{
 
 #right{
     width:40%;
+}
+
+#row{
+    display:flex;
+    justify-content:space-between;
+}
+#left, #middle, #rights{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    margin:20px;
+}
+#left{
+    width:48%;
+    margin-left:40px;
+}
+#middle{
+    width:26%;
+}
+#rights{
+    width:26%;
 }
 
 .centeritems{
@@ -97,7 +116,7 @@ nav{
     height:87vh;
 }
 
-.container {
+/*.container {
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 10px;
@@ -108,7 +127,7 @@ nav{
     font-size: 30px;
     text-align: center;
     margin:5px;
-    /*border-radius: 20px;*/
+    /*border-radius: 20px;
   }
 
 .new{
@@ -143,6 +162,28 @@ nav{
 #popthree:hover{
     transform:scale(1.07);
     background-position:0px -38vh;
+}*/
+
+.new{
+    height:30vh;
+    background-color:#FF1654;
+    padding:10px;
+    border-radius: 20px;
+}
+#new{
+    height:30vh;
+    background-color:#FF1654;
+    padding:10px;
+    border-radius: 20px;
+    margin-bottom:40px;
+}
+#pop{
+    background-color:#FF1654;
+    padding:10px;
+    border-radius: 20px;
+}
+#pop:hover{
+    transform:scale(1.03);
 }
 
 #yawn{
