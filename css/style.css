@@ -101,31 +101,48 @@ nav{
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 10px;
-    height:25vh;
+    height:100vh;
   }
 .container > div {
-    background-color: #FF1654;
-    padding: 10px;
+    
     font-size: 30px;
     text-align: center;
-    margin:10px;
-    border-radius: 20px;
+    margin:5px;
+    /*border-radius: 20px;*/
   }
 
 .new{
-    height:40vh;
+    height:38vh;
     border-radius: 20px;
+    background-color: #FF1654;
+    padding: 20px;
 }
 
 #pop{
-    height: 40vh;
-    border-radius: 20px; 
+    height: 38vh;
+    border-radius:20px; 
+    background-color: #FF1654;
+    padding: 20px;
 }
 
+#poptwo{
+    border-radius:20px;
+}
 #poptwo:hover{
-    height:40vh;
-    border-radius: 20px;
     transform:scale(1.07);
+}
+
+#popthree{
+    border-radius:20px;
+    background-image:url('../img/dressbellafull.png');
+    background-position:0px 0px;
+    background-size:38vh;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+#popthree:hover{
+    transform:scale(1.07);
+    background-position:0px -38vh;
 }
 
 #yawn{
