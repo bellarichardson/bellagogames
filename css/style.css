@@ -175,6 +175,7 @@ nav{
     border-radius: 20px;
     background-color:#FF1654;
     padding:10px;
+    height:70vh;
 }
 #pop:hover{
     transform:scale(1.03);
