@@ -44,6 +44,7 @@ body{
     align-items:center;
     justify-content:center;
     margin:1%;
+    height: auto;
 }
 #left{
     width:46%;
@@ -71,8 +72,8 @@ body{
     width:60%;
     display:flex;
     align-items:center;
-    padding:13.5px;
-    border-radius: 20px;
+    padding:4.3%;
+    border-radius: 12%;
 }
 .game:hover{
     transform: scale(1.1);
@@ -96,8 +97,8 @@ nav{
     color:#FFFFFF;
     margin:0;
     font-size: 25px;
-    padding:30px;
-    padding-right:70px;
+    padding:2.3%;
+    padding-right:7%;
     text-decoration:none;
 }
 
@@ -165,15 +166,15 @@ nav{
 
 .new{
     height:30vh;
-    border-radius: 20px;
+    border-radius: 12%;
     background-color:#FF1654;
     padding:10px;
 }
 
 #pop{
-    border-radius: 20px;
+    border-radius: 12%;
     background-color:#FF1654;
-    padding:10px;
+    padding:2.3%;
     height:70vh;
 }
 #pop:hover{
@@ -206,7 +207,7 @@ h2{
     font-size: 70px;
     display:flex;
     justify-content:center;
-    margin-bottom:0px;
+    margin-bottom:0%;
 }
 
 h3{
@@ -230,7 +231,7 @@ h4{
     padding:30px;
     display:flex;
     justify-content:center;
-    margin-bottom:0px;
+    margin-bottom:0%;
 }
 
 p{
@@ -262,11 +263,10 @@ p{
     height:115px;
     width: 245px;
     background-size: 30vh;
-
 }
 .goback:hover{
     background-image: url(../img/gobackcombined.png);
-    background-position:0px -115px;
+    background-position:0px -98%;
 }
 
 #goback{
@@ -280,7 +280,7 @@ p{
 }
 #goback:hover{
     background-image: url(../img/gobackcombined.png);
-    background-position:0px -115px;
+    background-position:0px -98%;
 }
 
 #gobacks{
@@ -352,10 +352,6 @@ p{
     height: 150px;
     transform: rotate(-10deg);
 }
-
-
-
-
 
 
 
