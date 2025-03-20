@@ -37,6 +37,7 @@ body{
 #row{
     display:flex;
     justify-content:space-between;
+    height:86vh;
 }
 #left, #middle, #rights{
     display:flex;
@@ -44,16 +45,17 @@ body{
     align-items:center;
     justify-content:center;
     margin:1%;
-    height: auto;
 }
 #left{
     width:46%;
 }
 #middle{
     width:22%;
+    justify-content:space-evenly;
 }
 #rights{
     width:22%;
+    justify-content:space-evenly;
 }
 
 .centeritems{
@@ -87,6 +89,7 @@ nav{
     background-color:#FF1654;
     display:flex;
     justify-content: space-between;
+    height:14vh;
 }
 
 #more{
@@ -115,54 +118,6 @@ nav{
     align-items:center;
     height:87vh;
 }
-
-/*.container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    padding: 10px;
-    height:100vh;
-  }
-.container > div {
-    
-    font-size: 30px;
-    text-align: center;
-    margin:5px;
-    /*border-radius: 20px;
-  }
-
-.new{
-    height:38vh;
-    border-radius: 20px;
-    background-color: #FF1654;
-    padding: 20px;
-}
-
-#pop{
-    height: 38vh;
-    border-radius:20px; 
-    background-color: #FF1654;
-    padding: 20px;
-}
-
-#poptwo{
-    border-radius:20px;
-}
-#poptwo:hover{
-    transform:scale(1.07);
-}
-
-#popthree{
-    border-radius:20px;
-    background-image:url('../img/dressbellafull.png');
-    background-position:0px 0px;
-    background-size:38vh;
-    background-repeat:no-repeat;
-    background-size:cover;
-}
-#popthree:hover{
-    transform:scale(1.07);
-    background-position:0px -38vh;
-}*/
 
 .new{
     height:30vh;
