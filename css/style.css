@@ -3,13 +3,6 @@ body{
     margin:0;
     padding:0;
 }
-/*
-.errandbg{
-    background-image:url(../img/bgforfit.png);
-    background-size: auto;
-    background-repeat: no-repeat;
-    background-position:right bottom;
-} can delete? */
 
 .column{
     float:left;
@@ -72,14 +65,14 @@ body{
 
 .game{
     width:60%;
-    display:flex;
-    align-items:center;
+    /*display:flex;
+    align-items:center;*/
     padding:4.3%;
     border-radius: 12%;
 }
-.game:hover{
+/*.game:hover{
     transform: scale(1.1);
-}
+}*/
 
 a{
     text-decoration: none;
@@ -91,6 +84,7 @@ nav{
     justify-content: space-between;
     height:14vh;
 }
+
 
 #more{
     font-family: "Lexend", sans-serif;
@@ -212,44 +206,44 @@ p{
 
 .goback{
     background-image: url(../img/gobackcombined.png);
-    background-position:0px 0px;
+    background-position:0% 0%;
     margin:auto;
     margin-top:60%;
-    height:115px;
-    width: 245px;
-    background-size: 30vh;
+    height:94px;
+    width: 200px;
+    background-repeat:no-repeat;
 }
 .goback:hover{
     background-image: url(../img/gobackcombined.png);
-    background-position:0px -98%;
+    background-position:0px 100%;
 }
 
 #goback{
     background-image: url(../img/gobackcombined.png);
-    background-position:0px 0px;
+    background-position:0% 0%;
     margin:auto;
     margin-top:5%;
-    height:115px;
-    width: 245px;
-    background-size: 30vh;
+    height:94px;
+    width: 200px;
+    background-repeat:no-repeat;
 }
 #goback:hover{
     background-image: url(../img/gobackcombined.png);
-    background-position:0px -98%;
+    background-position:0% 100%;
 }
 
 #gobacks{
     background-image: url(../img/gobackcombined.png);
-    background-position:0px 0px;
+    background-position:0% 0%;
     margin:auto;
     margin-top:40%;
-    height:115px;
-    width: 245px;
-    background-size: 30vh;
+    height: 94px;
+    width: 200px;
+    background-repeat:no-repeat;
 }
 #gobacks:hover{
     background-image: url(../img/gobackcombined.png);
-    background-position:0px -115px;
+    background-position:0% 100%;
 }
 
 .backleft{
@@ -261,16 +255,17 @@ p{
 
 #again{
     background-image: url(../img/playagain.png);
-    background-position:0px 0px;
+    background-position:0% 0%;
     margin:auto;
     margin-top:5%;
     height:80px;
     width: 245px;
-    background-size: 30vh;
+    background-size:cover;
+    background-repeat:no-repeat;
 }
 #again:hover{
     background-image: url(../img/playagain.png);
-    background-position:0px -80px;
+    background-position:0% 100%;
 }
 
 .options{
