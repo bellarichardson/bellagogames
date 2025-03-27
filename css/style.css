@@ -65,14 +65,10 @@ body{
 
 .game{
     width:60%;
-    /*display:flex;
-    align-items:center;*/
     padding:4.3%;
     border-radius: 12%;
 }
-/*.game:hover{
-    transform: scale(1.1);
-}*/
+
 
 a{
     text-decoration: none;
