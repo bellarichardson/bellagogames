@@ -51,6 +51,26 @@ body{
     justify-content:space-evenly;
 }
 
+.row{
+    display:flex;
+    justify-content:space-between;
+    height:86vh;
+}
+.aboutleft, .aboutright{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    margin:1%;
+}
+.aboutleft{
+    width:50%;
+}
+.aboutright{
+    width:50%;
+    margin-right:15%;
+}
+
 .centeritems{
     display:flex;
     justify-content:center;
@@ -81,6 +101,13 @@ nav{
     height:14vh;
 }
 
+.click{
+    display:flex;
+    justify-content: flex-end;
+    align-items:center;
+    margin-right:3%
+}
+
 
 #more{
     font-family: "Lexend", sans-serif;
@@ -91,8 +118,27 @@ nav{
     margin:0;
     font-size: 25px;
     padding:2.3%;
-    padding-right:7%;
     text-decoration:none;
+    white-space:nowrap;
+}
+#more:hover{
+    transform: scale(1.1);
+}
+
+#about{
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    color:#FFFFFF;
+    margin:0;
+    font-size: 25px;
+    padding:2.3%;
+    margin-right:15%;
+    text-decoration:none;
+}
+#about:hover{
+    transform: scale(1.1);
 }
 
 #newgame{
@@ -143,6 +189,9 @@ h1{
     font-size: 40px;
     padding:30px;
 }
+h1:hover{
+    transform:scale(1.05);
+}
 
 h2{
     font-family: "Peralta", serif;
@@ -189,6 +238,19 @@ p{
     font-size: 18px;
     padding:30px;
     margin-bottom:0px;
+}
+
+.pabout{
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style:normal;
+    color:#9013B9;
+    margin:0;
+    font-size: 23px;
+    padding:30px;
+    margin-bottom:0px;
+    padding-bottom:10px;
 }
 
 #bottom{
